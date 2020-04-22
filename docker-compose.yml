@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  chef:
+    build:
+      context: .
+    volumes:
+      - ".:/workspace"
